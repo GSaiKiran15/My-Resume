@@ -1,0 +1,117 @@
+body {
+  background-color: #001233;
+  font-family: "Montserrat", sans-serif;
+}
+
+#rest {
+  text-align: center;
+}
+
+#dp {
+  width: 30%;
+  border-radius: 50%;
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+
+header > h1 {
+  font-size: 3vw;
+}
+
+h4 {
+  font-size: 1.2vw;
+  color: #0466c8;
+}
+
+h2 {
+  color: #0466c8;
+  /* color: white; */
+  font-size: 3em;
+}
+
+#skillsbanner,
+#educationbanner {
+  text-align: center;
+}
+/* #skills {
+  text-align: center;
+} */
+
+li {
+  text-align: center;
+  list-style-type: none;
+  color: #979dac;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+li:hover {
+  color: white;
+}
+
+hr {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 0.5px solid #33415c;
+}
+
+/* .h3education, */
+h3 {
+  color: #979dac;
+  font-size: 200%;
+}
+
+/* .h3education:hover {
+  color: white;
+} */
+
+.h4education {
+  color: #7d8597;
+}
+/* 
+.h4education:hover {
+  color: white;
+} */
+
+.peducation {
+  color: #5c677d;
+}
+
+/* .peducation:hover {
+  color: white;
+} */
+
+.edhr {
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  border: 0.5px solid #33415c;
+}
+.ph4,
+.ph3 {
+  display: inline;
+  margin: 0;
+}
+
+#rest > h3:hover,
+h4:hover,
+p:hover {
+  color: white;
+}
+
+.boom {
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+.email {
+  color: aqua;
+}
+/* 
+#979DAC
+#7D8597
+#5C677D  */
