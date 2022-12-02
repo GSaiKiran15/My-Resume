@@ -35,6 +35,7 @@ h2 {
 #skillsbanner,
 #educationbanner {
   text-align: center;
+  justify-content: center;
 }
 /* #skills {
   text-align: center;
@@ -115,3 +116,34 @@ p:hover {
 #979DAC
 #7D8597
 #5C677D  */
+
+.stars {
+  color: #7d8597;
+  text-align: center;
+}
+
+.skill {
+  color: #0466c8;
+  text-align: center;
+}
+
+th {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  font-size: 30px;
+}
+
+a {
+  color: #979dac;
+  text-decoration: none;
+  border: #979dac;
+  display: inline-block;
+}
+
