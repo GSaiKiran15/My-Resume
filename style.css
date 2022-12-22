@@ -1,56 +1,50 @@
 body {
   background-color: #001233;
   font-family: "Montserrat", sans-serif;
-}
-
-#rest {
-  text-align: center;
-}
-
-#dp {
-  width: 30%;
-  border-radius: 50%;
-}
-
-header {
-  text-align: center;
   color: white;
 }
 
-header > h1 {
-  font-size: 3vw;
+/* Image */
+
+#dp {
+  text-align: center;
+  margin: auto;
+  align-content: center;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  margin-left: 35%;
+  margin-top: 100px;
 }
 
-h4 {
-  font-size: 1.2vw;
-  color: #0466c8;
+/* Image */
+h1 {
+  text-align: center;
+  font-size: 3rem;
 }
 
 h2 {
+  text-align: center;
+  margin: auto;
+  font-size: 2.5rem;
   color: #0466c8;
-  /* color: white; */
-  font-size: 3em;
+  margin: 50px auto;
 }
 
-#skillsbanner,
-#educationbanner {
-  text-align: center;
-  justify-content: center;
-}
-/* #skills {
-  text-align: center;
-} */
-
-li {
-  text-align: center;
-  list-style-type: none;
-  color: #979dac;
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-
-li:hover {
+h2:hover {
   color: white;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+span {
+  font-size: 1.25rem;
 }
 
 hr {
@@ -60,90 +54,108 @@ hr {
   border: 0.5px solid #33415c;
 }
 
-/* .h3education, */
-h3 {
-  color: #979dac;
-  font-size: 200%;
-}
+/* Education */
 
-/* .h3education:hover {
-  color: white;
-} */
-
-.h4education {
-  color: #7d8597;
-}
-/* 
-.h4education:hover {
-  color: white;
-} */
-
-.peducation {
-  color: #5c677d;
-}
-
-/* .peducation:hover {
-  color: white;
-} */
-
-.edhr {
-  text-align: center;
-  margin-left: 35%;
-  margin-right: 35%;
-  border: 0.5px solid #33415c;
-}
-.ph4,
-.ph3 {
-  display: inline;
-  margin: 0;
-}
-
-#rest > h3:hover,
-h4:hover,
-p:hover {
-  color: white;
-}
-
-.boom {
-  margin-top: 10px;
-  margin-bottom: 80px;
-}
-
-.email {
-  color: aqua;
-}
-/* 
-#979DAC
-#7D8597
-#5C677D  */
-
-.stars {
-  color: #7d8597;
-  text-align: center;
-}
-
-.skill {
-  color: #0466c8;
+td {
+  height: 150px;
+  width: 1000px;
+  font-size: 20px;
   text-align: center;
 }
 
 th {
-  color: white;
-  text-align: center;
-  font-size: 40px;
+  font-size: 30px;
+  height: 100px;
 }
 
 table {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2%;
-  font-size: 30px;
+  margin: auto;
+  margin-bottom: 100px;
 }
+
+/* Education */
+
+/* Skills */
+.python,
+.css {
+  padding-top: 5%;
+  margin-bottom: 200px;
+}
+
+.p,
+.c {
+  float: left;
+  margin-left: 100px;
+}
+
+.pt,
+.ct {
+  width: 40%;
+  margin: auto;
+}
+
+.j,
+.h {
+  float: right;
+}
+
+.jt,
+.ht {
+  width: 40%;
+  margin: auto;
+}
+
+.js,
+.html {
+  padding-top: 5%;
+  margin-bottom: 200px;
+}
+/* Skills */
 
 a {
-  color: #979dac;
+  text-align: center;
+  margin: auto;
   text-decoration: none;
-  border: #979dac;
-  display: inline-block;
+  color: azure;
 }
 
+/* Contact */
+
+#contact > .icons > a > img {
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.icons {
+  margin: auto;
+  text-align: center;
+}
+
+/* Contact */
+
+/* Footer */
+
+footer {
+  padding-bottom: 50px;
+}
+
+/* Footer */
+.head {
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  right: 0px;
+}
+ul > li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  font-size: 2rem;
+  margin: auto 80px auto 80px;
+}
+
+ul > li:hover {
+  text-decoration: underline;
+}
