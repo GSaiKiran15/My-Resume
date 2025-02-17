@@ -1,0 +1,214 @@
+body {
+  background-image: linear-gradient(to bottom right, #36476b, #001233);
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.boom {
+  font-size: 30px;
+}
+
+/* Image */
+
+#dp {
+  text-align: center;
+  margin: auto;
+  align-content: center;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  margin-left: 35%;
+  margin-top: 70px;
+}
+
+/* Image */
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+h2 {
+  text-align: center;
+  margin: auto;
+  font-size: 2.5rem;
+  color: #0466c8;
+  margin: 50px auto;
+}
+
+h2:hover {
+  color: white;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+span {
+  font-size: 1.25rem;
+}
+
+hr {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 0.5px solid #33415c;
+}
+
+/* Education */
+
+td {
+  height: 150px;
+  width: 1000px;
+  font-size: 20px;
+  text-align: center;
+}
+
+th {
+  font-size: 30px;
+  height: 100px;
+}
+
+table {
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+/* Education */
+
+/* Skills */
+.python,
+.css {
+  padding-top: 5%;
+  margin-bottom: 200px;
+}
+
+.p,
+.c {
+  float: left;
+  margin-left: 100px;
+}
+
+.pt,
+.ct {
+  width: 40%;
+  margin: auto;
+}
+
+.j,
+.h {
+  float: right;
+}
+
+.jt,
+.ht {
+  width: 40%;
+  margin: auto;
+}
+
+.js,
+.html {
+  padding-top: 5%;
+  margin-bottom: 200px;
+}
+
+.n {
+  margin-bottom: 50px;
+}
+/* Skills */
+
+#ed,
+#sl,
+#pc,
+#ct {
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  color: azure;
+}
+
+/* Contact */
+
+#contact > .icons > a > img {
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.icons {
+  margin: 80px auto 0 auto;
+  text-align: center;
+}
+
+#cme {
+  margin-top: 50px;
+}
+
+footer {
+  /* background-image: linear-gradient(to bottom right, #001233, #364563); */
+  padding-top: 40px;
+}
+
+/* Contact */
+
+/* Footer */
+
+footer {
+  padding-bottom: 50px;
+  opacity: 0;
+}
+
+.addfooter {
+  opacity: 100;
+}
+
+/* Footer */
+.head {
+  margin: 0 auto 0 auto;
+  text-align: center;
+  display: inline-block;
+  align-content: center;
+}
+
+ul > li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  font-size: 2rem;
+  margin: 10px 4vw 10px 4vw;
+}
+
+ul > li:hover {
+  text-decoration: underline solid #8a8f97 5px;
+}
+
+/* Projects */
+
+.prjcts {
+  margin: 100px auto 100px auto;
+}
+
+.prism {
+  margin: 0 auto 100px auto;
+}
+
+#pjs {
+  color: #0466c8;
+}
+
+#git {
+  color: #0466c8;
+  background: -webkit-linear-gradient(#0466c8, #33415c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#git:hover {
+  color: white;
+  -webkit-text-fill-color: white;
+  text-decoration: wavy;
+}

@@ -1,0 +1,17 @@
+#projectd1{
+    width: 25vw;
+    border-radius: 10%;
+}
+
+#projectd1img{
+    width: 25vw;
+    border-radius: 10%;
+}
+
+#projectd1txt{
+    text-align: center;
+    width: 25vw;
+    /* margin-left: 0 auto 0 auto; */
+    font-size: 1.5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

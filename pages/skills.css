@@ -1,0 +1,56 @@
+body {
+  background-color: #001233;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.python,
+.css {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.p,
+.c {
+  float: left;
+  margin-left: 100px;
+}
+
+.pt,
+.ct {
+  width: 40%;
+  margin: auto;
+}
+
+.j,
+.h {
+  float: right;
+}
+
+.jt,
+.ht {
+  width: 40%;
+  margin: auto;
+}
+
+hr {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 0.5px solid #33415c;
+}
+.js,
+.html {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
