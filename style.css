@@ -11,15 +11,48 @@
   animation: scroll-left 60s linear infinite; /* Adjust '60s' to control the speed */
 }
 
+.container {
+  /* background: #161b22; */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 90%;
+  max-width: 1200px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  justify-items: center;
+}
 .skill {
-  display: inline-block;
-  margin-right: 80px; /* Spacing between icons */
-  text-align: center; /* Center aligns the text label under the icon */
-  min-width: 80px; /* Fixed width for uniformity */
+  /* background: #21262d; */
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+}
+.skill:hover {
+  transform: scale(1.05);
+  background-color: rgb(169, 169, 169);
+  /* color: black; */
+}
+.skill img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
 }
 
 .skill-icon {
-  width: 100px; /* Icon size, adjust as needed */
+  width: 400px; /* Icon size, adjust as needed */
   height: auto; /* Maintains the aspect ratio */
 }
 
@@ -38,3 +71,4 @@
       transform: translateX(-100%); /* Scrolls the content to the left */
   }
 }
+
